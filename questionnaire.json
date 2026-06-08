@@ -1,0 +1,456 @@
+{
+	"questions": [
+		{
+			"text": "You’ve got the entire day to yourself. What do you, as an aspiring pop star do?",
+			"choices": [
+				{
+					"text": "Check the news, see what other pop stars are up to and how people react to that.",
+					"effects": {
+						"fame": 0,
+						"fun": -1,
+						"money": 0,
+						"relevance": 1
+					},
+					"comment": "Dull, but shrewd. You gotta learn the terrain. Even if you’re gonna do something completely different."
+				},
+				{
+					"text": "Phone your wildest mates and hit the hottest club within taxi range.",
+					"effects": {
+						"fame": 1,
+						"fun": 1,
+						"money": -1,
+						"relevance": -1
+					},
+					"comment": "Nice work if you can afford it! But if you can get in, it’ll get you seen."					
+				},
+				{
+					"text": "Do a bit of homework: what’s tranding now; what was trending last month, and the month before that? What do people think is coming next?",
+					"effects": {
+						"fame": -1,
+						"fun": -1,
+						"money": 1,
+						"relevance": 1						
+					},
+					"comment": "Someone’s trying to be clever! But a bit of planning can pay high dividends. ... ’Ere, are you after my job or something?"					
+				},
+				{
+					"text": "Write some songs.",
+					"effects": {
+						"fame": 0,
+						"fun": 0,
+						"money": -1,
+						"relevance": 1,
+						"talent": 1
+					},
+					"comment": "Are you kidding me? I’ll tell you right now, those songs are gonna be rubbish. We’ll find some proper ones for you to sing."	
+				}
+			]
+		},
+		{
+			"text": "You’ve just been asked what you think about the latest song by WHOEVER. You haven’t heard it and don’t have an opinion. DO YOU:",
+			"choices": [
+				{
+					"text": "Admit just that.",
+					"effects": {
+						"fame": 0,
+						"fun": -1,
+						"money": 0,
+						"relevance": 1
+					},
+					"comment": "Well, at least you’re honest, I suppose. People will respect that. If you don’t put them to sleep first!"
+				},
+				{
+					"text": "Gush about it like it’s the best thing you’ve ever heard.",
+					"effects": {
+						"fame": 0,
+						"fun": 1,
+						"money": 0,
+						"relevance": -1
+					},
+					"comment": "Enthusiasm’s great, especially if you can generate it on demand."
+				},
+				{
+					"text": "Say it’s rubbish, and say something nastier about WHOEVER.",
+					"effects": {
+						"fame": 1,
+						"fun": 0,
+						"money": -1,
+						"relevance": 0
+					},
+					"comment": "Even if it makes people less likely to want to work with you, Johnny Public likes a bit of drama!"
+				},
+				{
+					"text": "Pivot to talking about stuff you do like.",
+					"effects": {
+						"fame": -1,
+						"fun": 0,
+						"money": 1,
+						"relevance": 0
+					},
+					"comment": "You might not give the interview THEY want, but you gave the interview YOU want."
+				}
+			]
+		},
+		{
+			"text": "It’s time to work on your debut single! What’s it going to be?",
+			"choices": [
+				{
+					"text": "Something brilliant and ambitious and artistic.",
+					"effects": {
+						"fame":0,
+						"fun":0,
+						"money":-1,
+						"relevance":1
+					},
+					"comment": "HA HA HA HA HA HA HA HAAAA! Oh I’m sorry, you’re serious, aren’t you?"
+				},
+				{
+					"text": "A novelty, something to do with a current meme that the kids love right now and the adults hate. Catchy. But annoying. But catchy. But annoying.",
+					"effects": {
+						"fame":1,
+						"fun":1,
+						"money":0,
+						"relevance":-2
+					},
+					"comment": "Well, of course it’s beneath you! It’s beneath everyone! But it’ll get you noticed."
+				},
+				{
+					"text": "A cover of a song that everyone likes; a classic.",
+					"effects": {
+						"fame": 1,
+						"fun": 1,
+						"money": 0,
+						"relevance": -1
+					},
+					"comment": "Just don’t make it one of the songs I like: they’ve been ruined enough already!"
+				},
+				{
+					"text": "A cover of something godawful that was popular when it came out and somehow still has nostalgia value.",
+					"effects": {
+						"fame": 1,
+						"fun": 1,
+						"money": 0,
+						"relevance": 0
+					},
+					"comment": "Well, you can’t make it worse, so maybe you’re onto something here!"
+				}
+			]
+		},
+		{
+			"text": "An interviewer asks when your birthday is. Do you:",
+			"choices": [
+				{
+					"text": "Just tell her.",
+					"effects": {
+						"fame": 0,
+						"fun": -1,
+						"money": 0,
+						"relevance": 1
+					},
+					"comment": "They sing! They dance! They answer simple questions about themselves!"
+				},
+				{
+					"text": "Tease; ask when hers is.",
+					"effects": {
+						"fame": 0,
+						"fun": 1,
+						"money": 0,
+						"relevance": 0
+					},
+					"comment": "Turn the table, flip the script, make the interviewer remember you."
+				},
+				{
+					"text": "Tell her a well-practised lie.",
+					"effects": {
+						"fame": 1,
+						"fun": 1,
+						"money": 0,
+						"relevance": 0
+					},
+					"comment": "Assuming you’ve got a well-practiced lie to tell! Your legend is yours to build."
+				},
+				{
+					"text": "Ask what the Hell that has to do with the release, get increasingly irritable and flippant throughout the rest of the interview.",
+					"effects": {
+						"fame": 1,
+						"fun": -1,
+						"money": 0,
+						"relevance": 0
+					},
+					"comment": "Tell me, at some point do you expect people to actually LIKE you? "
+				}
+			]
+		},  		
+		{
+			"text": "It’s time to look at your image. What’s your approach?",
+			"choices": [
+				{
+					"text": "Image isn’t important. Music is. I’ll wear what I want, it doesn’t matter.",
+					"effects": {
+						"fame": -1,
+						"fun": 0,
+						"money": 0,
+						"relevance": 1
+					},
+					"comment": "Here’s a funny fact: did you know most of the world has eyes?"
+				},
+				{
+					"text": "Whatever’s usual for my scene.",
+					"effects": {
+						"fame": 0,
+						"fun": -1,
+						"money": 1,
+						"relevance": 0
+					},
+					"comment": "Safe enough, I suppose. But trends are to be set, not followed."
+				},
+				{
+					"text": "What’s going to stand out and get me noticed?",
+					"effects": {
+						"fame": 1,
+						"fun": 0,
+						"money": 0,
+						"relevance": -1
+					},
+					"comment": "Good question! Let’s just hope it won’t get us sued too."					
+				},
+				{
+					"text": "Something dignified. Smart or casual or costume, just so long as no-one takes the mickey.",
+					"effects": {
+						"fame": 0,
+						"fun": -1,
+						"money": 1,
+						"relevance": 0						
+					},
+					"comment": "Good answer... if a bit timid. You're meant to be a pop star. Stick your neck out a bit!"
+				}
+			]
+		},  				
+		{
+			"text": "An interviewer asks you to define your music.",
+			"choices": [
+				{
+					"text": "A carefully considered answer that shows that, new or not, you know your music and where yours fits in.",
+					"effects": {
+						"fame": -1,
+						"fun": -1,
+						"money": 1,
+						"relevance": 1
+					},
+					"comment": "You’ll be telling me you can actually play an instrument next!"
+				},
+				{
+					"text": "“I dunno, I’m just here to have some fun. Have we got to categorise everything?”",
+					"effects": {
+						"fame": -1,
+						"fun": 1,
+						"money": -1,
+						"relevance": 1
+					},
+					"comment": "Ooh, the ‘tired of music journalism’ angle. Interesting!"
+				},
+				{
+					"text": "“The only music you need to listen to, ‘cause everything else is frankly rubbish.”",
+					"effects": {
+						"fame": 1,
+						"fun": 1,
+						"money": -1,
+						"relevance": -1
+					},
+					"comment": "Sometimes pop needs its arrogant young upstarts. Can you pull it off, though?"
+				},
+				{
+					"text": "Make up some term that nobody’s heard of and fewer people understand, and hope the phrase catches on.",
+					"effects": {
+						"fame": 1,
+						"fun": 1,
+						"money": -1,
+						"relevance": -1						
+					},
+					"comment": "Acid Skiffle? No, wait. Ambient thrash. Hardcore Easy-Listening Techno? Dirty House? So many options..."
+				}
+			]
+		},  
+		{
+			"text": "You’ve been asked to condense your entire look down to one accessory. What is it?",
+			"choices": [
+				{
+					"text": "An eyepatch.",
+					"effects": {
+						"fame": 0,
+						"fun": 1,
+						"money": 1,
+						"relevance": 0
+					},
+					"comment": "Eyepatches always look stupid if you don't need one, but they always come back into style."
+				},
+				{
+					"text": "A piercing.",
+					"effects": {
+						"fame": 1,
+						"fun": 1,
+						"money": 0,
+						"relevance": 0
+					},
+					"comment": "Old folks hate ’em, young folks love ’em, but who’s indifferent to a weird piercing?"
+				},
+				{
+					"text": "A pair of really tight trousers.",
+					"effects": {
+						"fame": 1,
+						"fun": 0,
+						"money": 1,
+						"relevance": 0
+					},
+					"comment": "Whether now while you’re young, or years later when you’re old and have put on weight, they’ll notice!"
+				},
+				{
+					"text": "A scruffy T-shirt featuring a band that split up before you were born.",
+					"effects": {
+						"fame": 0,
+						"fun": 0,
+						"money": 1,
+						"relevance": 1						
+					},
+					"comment": "A bargain at 300 quid!"
+				}
+			]
+		},  	
+		{
+			"text": "You’ve blagged your way onto one of the big talent shows. You’re going to sing. What do you sing for the judges?",
+			"choices": [
+				{
+					"text": "A standard, one of the judges’ favourites.",
+					"effects": {
+						"fame": 0,
+						"fun": 1,
+						"money": 0,
+						"relevance": 1						
+					},
+					"comment": "On the one hand, that'll ruin the song for the judge. On the other, I bloody hate that judge, probably." 					
+				},
+				{
+					"text": "Something a bit rougher or a bit funkier; something that’s a bit more forgiving of the flaws in my own voice.",
+					"effects": {
+						"fame": 0,
+						"fun": 1,
+						"money": 1,
+						"relevance": 0						
+					},
+					"comment": "Sensible. And you gotta do something you’re comfortable with. The challenge is putting up with what they say after!"					
+				},
+				{
+					"text": "It doesn’t matter so long as I put all my heart and soul into it.",
+					"effects": {
+						"fame": 1,
+						"fun": 1,
+						"money": 0,
+						"relevance": 0						
+					},
+					"comment": "You sound just like all the other contestants now! The rubbish ones, mind you." 
+				},
+				
+				{
+					"text": "Something stupid and moronic, but have it change gear halfway through into a completely different style. It might be crap, but they won’t know quite what to think.",
+					"effects": {
+						"fame": 0,
+						"fun": 1,
+						"money": 0,
+						"relevance": 1						
+					},
+					"comment": "I like it! Don’t be good if you can be great. And don’t be crap if you can be AWFUL,"
+				}
+			]
+		},  
+		{
+			"text": "An interviewer asks you what book you last read, and your opinion of it. What do you pick?",
+			"choices": [
+				{
+					"text": "Something topical and dangerous and revolutionary, but then claim it put you to sleep.",
+					"effects": {
+						"fame": 0,
+						"fun": 1,
+						"money": 0,
+						"relevance": 0
+					},
+					"comment": "Ooh, tricksy! Tempt them with the possibility of your intelligence then leave ‘em guessing!"
+				},
+				{
+					"text": "Something clever and profound, and offer a critique.",
+					"effects": {
+						"fame": 0,
+						"fun": 0,
+						"money": 0,
+						"relevance": 1						
+					},
+					"comment": "Okay, so you’re smart, but be careful: you don’t want to alienate the punters!"
+				},
+				{
+					"text": "Something popular and simple, but excuse it as a guilty pleasure, or defend it, asking them what’s wrong with a bit of comfort reading?",
+					"effects": {
+						"fame": 0,
+						"fun": 0,
+						"money": 1,
+						"relevance": 0												
+					},
+					"comment": "See, now they identify with you. Just don't try to be too common. People know when you’re faking that."
+				},
+				{
+					"text": "A kid’s book, and play up your mischievous side by saying you found it too difficult.",
+					"effects": {
+						"fame": 1,
+						"fun": 0,
+						"money": 0,
+						"relevance": 0																		
+					},
+					"comment": "The ‘am I really this stupid?’ ploy? Cunning! But pick the right kid’s book and make sure you know which bits give you difficulty!"
+				}
+			]
+		},		
+		{
+			"text": "You’ve got another day to yourself, and you feel you should do something to improve your career. What do you do?",
+			"choices": [
+				{
+					"text": "Rehearse.",
+					"effects": {
+						"fame": 0,
+						"fun": 0,
+						"money": 1,
+						"relevance": 1																		
+					},
+					"comment": "You’re always going to have something to rehearse, even if it's nothing particularly worthy."
+				},
+				{
+					"text": "Take a singing lesson.",
+					"effects": {
+						"fame": 1,
+						"fun": 0,
+						"money": 0,
+						"relevance": 1
+					},
+					"comment": "Famous singers don’t need to sound good! But on the other hand... it DOES save on studio time."
+				},
+				{
+					"text": "Go to the market, see if you can find something that’ll look good on stage.",
+					"effects": {
+						"fame": 1,
+						"fun": 0,
+						"money": 1,
+						"relevance": 0
+					},
+					"comment": "Stranger things have happened, so keep your eyes open! Oh, and pick us up some prawns from the fish stall, will you?"
+				},
+				{
+					"text": "Go where someone famous is known to drink, then play the most immature prank you can and stream it.",
+					"effects": {
+						"fame": 1,
+						"fun": 0,
+						"money": 1,
+						"relevance": 0						
+					},
+					"comment": "Oh Gawd, I can feel a headache coming on. Just don't get arrested or do something he could sue you for, okay?"
+				}
+			]
+		}
+	]
+}
