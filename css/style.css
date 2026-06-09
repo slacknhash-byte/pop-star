@@ -1,0 +1,22 @@
+/* Created 08/06/2026 by Phil Smith */
+
+#game-screen {
+	background-color: #000000;
+}
+
+#game-screen section {
+	height: 400px;
+	display: block;
+}
+
+#section-01-header {
+	color: #0000FF;
+}
+
+#section-02-header {
+	color: #FF0000;
+}
+
+#game-screen section p {
+	color: #808080;
+}

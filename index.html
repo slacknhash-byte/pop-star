@@ -10,16 +10,25 @@
    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
    <link rel="stylesheet" type="text/css" href="css/style.css" />
    <script type="text/javascript">
-   const character = {
-		fame = 5;
-		fun = 5;
-		relevance = 5;
-		money = 5;
-   };
    
    function meetVic() {
-	
+		fetch("./intro.json")
+			.then((response) => response.json())
+			.then((json) => console.log(json));
+		showSection("section-01");
+		hideSection("section-02");
+		hideSection("section-02-header");
    }
+   
+ 
+	
+	function showSection(section_id) {
+		document.getElementById(section_id).style.display = 'block';
+	}
+	
+	function hideSection(section_id) {
+		document.getElementById(section_id).style.display = 'none';
+	}
    </script>
 </head>
 <body>
@@ -34,7 +43,8 @@
 	<div class="container">
 		<h1>Home Page</h1>
 		<article id="game-screen">
-		<h2 id="section-02-header">Meet Vic</h2>
+		<noscript>This game requires JavaScript to work. Please enable JavaScript if you want to play.</noscript>
+		<h2 id="section-01-header">Meet Vic</h2>
 		<section id="section-01">
 			<div id="section-01-vic-dialogue"></div>
 		</section>
@@ -54,6 +64,11 @@
 			</div>
 		</section>
 		</article>
+	</div>
+	<div id="console">
+	<p><button onclick="hideSection('section-01')">Hide Section 1</button> <button onclick="showSection('section-01')">Show Section 1</button></p>
+	<p><button onclick="hideSection('section-02')">Hide Section 2</button> <button onclick="showSection('section-02')">Show Section 2</button></p>
+	<p><button onclick="meetVic()">Meet Vic</button></p>
 	</div>
 	</main>
 	<footer>
