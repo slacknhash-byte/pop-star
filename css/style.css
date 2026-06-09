@@ -11,10 +11,12 @@
 
 #section-01-header {
 	color: #0000FF;
+	-webkit-text-stroke: 1px #3333FF;
 }
 
 #section-02-header {
 	color: #FF0000;
+	-webkit-text-stroke: 1px #FF3333;
 }
 
 #game-screen section p {
