@@ -16,7 +16,7 @@
 			"comment": "TBD"			
 		},
 		{
-			"text": "What do you mean, 'Jeremy sent you'? I don't know any Jeremies."
+			"text": "What do you mean, 'Jeremy sent you'? I don't know any Jeremies.",
 			"image": "confused.png",
 			"comment": "TBD"
 		},
@@ -32,12 +32,12 @@
 		},
 		{
 			"text": "Yeah, that is what I told him. How did you know th-- ah. So Almighty Jez is calling in a favour, then.",
-			"image": "realise.png"
+			"image": "realise.png",
 			"comment": "TBD"
 		},
 		{
 			"text": "Well, you might as well come in then. Let's see what I've got to work with, eh?",
-			"image": "resigned.png"
+			"image": "resigned.png",
 			"comment": "TBD"
 		}		
 	]
