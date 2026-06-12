@@ -3,9 +3,7 @@
 	let isTyping = false;
 	let typingTimeouts = [];
    function meetVic() {
-   		hideSection("section-02");
-		hideSection("section-02-header");
-		showSection("section-01");
+
 		fetch("intro.json")
 			.then(response => response.json())
 			.then(data => {
@@ -22,14 +20,19 @@
 	function introDialogue() {
 
 		const currElement =
-			document.getElementById("section-01-vic-dialogue");
-
+			document.getElementById("vic-dialogue");
+		const p = document.createElement("p");
+		if (currElement.lastChild) {
+			currElement.lastChild.textContent = currElement.lastChild.textContent.substr(0,currElement.lastChild.textContent.length - 1);
+			currElement.lastChild.style.color = "#808080"
+		}
+		currElement.appendChild(p);
 		if (dialogueIndex < cachedDialogue.length) {
 
 			const currentLine =
 				cachedDialogue[dialogueIndex].text;
 
-			typeOut(currentLine, 50, currElement);
+			typeOut(currentLine, 50, currElement.lastChild);
 
 			dialogueIndex++;
 
@@ -43,7 +46,7 @@
 	}
 
 	function advanceDialogue() {
-
+		
 		if (isTyping) {
 			skipTyping();
 		} else {
@@ -72,16 +75,17 @@
 
 			let timeoutID = setTimeout(() => {
 
-				outputArea.textContent =
-					textInput.substr(0, charIndex + 1) + "_" ;
-
+				outputArea.innerHTML =
+					textInput.substr(0, charIndex + 1) + '<span class="blink">_</span>';
+				
 				if (charIndex === textInput.length - 1) {
-					isTyping = false;
+					isTyping = false;	
 				}
 
 			}, charIndex * period);
 
 			typingTimeouts.push(timeoutID);
+			
 		}
 	}
 
@@ -92,9 +96,7 @@
 		const currentLine =
 			cachedDialogue[dialogueIndex - 1].text;
 
-		document.getElementById(
-			"section-01-vic-dialogue"
-		).textContent = currentLine;
+		document.getElementById("vic-dialogue").lastChild.textContent = currentLine;
 
 		isTyping = false;
 

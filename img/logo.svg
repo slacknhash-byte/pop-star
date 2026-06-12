@@ -7,13 +7,40 @@
    viewBox="0 0 105.83333 26.458333"
    version="1.1"
    id="svg1"
+   sodipodi:docname="logo.svg"
+   inkscape:version="1.4.3 (0d15f75, 2025-12-25)"
+   inkscape:export-filename="C:\Users\slack\Documents\GitHub\pop-star\img\popstar_favicon.svg"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns="http://www.w3.org/2000/svg"
    xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#111111"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="1"
+     inkscape:deskcolor="#d1d1d1"
+     showgrid="false"
+     inkscape:zoom="2.84"
+     inkscape:cx="200"
+     inkscape:cy="45.950704"
+     inkscape:window-width="1920"
+     inkscape:window-height="1009"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg1" />
   <defs
      id="defs1">
     <linearGradient
-       id="linearGradient12">
+       id="linearGradient12"
+       inkscape:collect="always">
       <stop
          style="stop-color:#ffffff;stop-opacity:1;"
          offset="0"
@@ -24,7 +51,8 @@
          id="stop13" />
     </linearGradient>
     <linearGradient
-       id="linearGradient10">
+       id="linearGradient10"
+       inkscape:collect="always">
       <stop
          style="stop-color:#ffffff;stop-opacity:1;"
          offset="0.00165563"
@@ -35,6 +63,7 @@
          id="stop11" />
     </linearGradient>
     <linearGradient
+       inkscape:collect="always"
        xlink:href="#linearGradient10"
        id="linearGradient11"
        x1="59.491352"
@@ -43,6 +72,7 @@
        y2="9.9577799"
        gradientUnits="userSpaceOnUse" />
     <linearGradient
+       inkscape:collect="always"
        xlink:href="#linearGradient12"
        id="linearGradient13"
        x1="60.986275"
@@ -63,17 +93,20 @@
   <path
      style="fill:#ffffff;stroke:none;stroke-width:0.396875;stroke-opacity:1"
      d="m 8.9205116,17.07504 c 0,0 -0.00411,-0.744505 0.1981058,-1.029525 0.3188092,-0.449347 0.878356,-0.807375 1.4288066,-0.830949 0.456407,-0.01955 1.321276,0.286276 1.321276,0.286276 -2.0049696,-0.321195 -2.6359299,0.412399 -2.9481884,1.574198 z"
-     id="path1" />
+     id="path1"
+     sodipodi:nodetypes="cascc" />
   <path
      style="fill:#ffffff;stroke:none;stroke-width:0.396875;stroke-opacity:1"
      d="m 12.248779,8.1131938 0.01692,1.1566096 c 0.0857,-0.5594686 0.275834,-1.0298653 0.868868,-1.1566096 -0.292628,-0.00527 -0.579267,-0.022516 -0.885788,0 z"
-     id="path3" />
+     id="path3"
+     sodipodi:nodetypes="cccc" />
   <text
      xml:space="preserve"
      style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.2889px;line-height:0em;font-family:'Bauhaus 93';-inkscape-font-specification:'Bauhaus 93, ';writing-mode:lr-tb;direction:ltr;fill:#800000;stroke:none;stroke-width:0.396875;stroke-opacity:1"
      x="40.261299"
      y="11.529881"
      id="text7"><tspan
+       sodipodi:role="line"
        id="tspan7"
        style="fill:#800000;stroke-width:0.396875"
        x="40.261299"
@@ -84,6 +117,7 @@
      x="40.261299"
      y="10.471548"
      id="text5"><tspan
+       sodipodi:role="line"
        id="tspan5"
        style="stroke-width:0.396875"
        x="40.261299"
@@ -94,6 +128,7 @@
      x="29.606298"
      y="21.188986"
      id="text8"><tspan
+       sodipodi:role="line"
        id="tspan8"
        style="fill:#800000;stroke-width:0.396875"
        x="29.606298"
@@ -104,6 +139,7 @@
      x="29.606298"
      y="20.130651"
      id="text6"><tspan
+       sodipodi:role="line"
        id="tspan6"
        style="stroke-width:0.396875"
        x="29.606298"
