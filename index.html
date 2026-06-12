@@ -1,40 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-   <title>Home Page</title>
-   <meta charset="UTF-8" />
-   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-   <link rel="preconnect" href="https://fonts.googleapis.com">
-   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>    
-   <link href="https://fonts.googleapis.com/css2?family=Hedvig+Letters+Serif&display=swap" rel="stylesheet">
-   <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
-   <link rel="stylesheet" type="text/css" href="css/style.css" />
-   <script type="text/javascript">
-   
-   function meetVic() {
-		fetch("./intro.json")
-			.then((response) => response.json())
-			.then((json) => console.log(json));
-		showSection("section-01");
-		hideSection("section-02");
-		hideSection("section-02-header");
-   }
-   
- 
-	
-	function showSection(section_id) {
-		document.getElementById(section_id).style.display = 'block';
-	}
-	
-	function hideSection(section_id) {
-		document.getElementById(section_id).style.display = 'none';
-	}
-   </script>
+	<title>Home Page</title>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="icon" type="image/x-icon" href="img/popstar_favicon.svg">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://gstatic.com" crossorigin>
+	<link href="https://googleapis.com" rel="stylesheet">
+	<link href="https://googleapis.com/css2?family=Press+Start+2P&family=VT323&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/style.css" />
+	<script type="text/javascript" src="scripts/game_script.js"></script>
 </head>
 <body>
 	<header>
 	<div class="container">
-		<div id="site-branding"><h1><a href="index.html"><img src="img/logo.svg" alt="Untitled Pop Star Game" width="120" height="40" /></a><span>Untitled Pop Star Game</span></h1></div>
+		<div id="site-branding"><h1><a href="index.html"><img src="img/logo.svg" alt="Bloody Pop Stars" width="500" height="100" /></a><span>Bloody Pop Stars</span></h1></div>
 		<nav> 
 		</nav>
 	</div>
@@ -46,7 +27,7 @@
 		<noscript>This game requires JavaScript to work. Please enable JavaScript if you want to play.</noscript>
 		<h2 id="section-01-header">Meet Vic</h2>
 		<section id="section-01">
-			<div id="section-01-vic-dialogue"></div>
+			<p id="section-01-vic-dialogue"></p>
 		</section>
 		<h2 id="section-02-header">Questionnaire</h2>
 		<section id="section-02">
